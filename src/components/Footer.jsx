@@ -5,12 +5,12 @@ import { FaTiktok,FaFacebookSquare  } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer
-        className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white">
+        className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-black dark:text-yellow-500">
         <div className="container px-6 pt-6">
           <div className="mb-6 flex justify-center space-x-2">
-            <FaFacebookSquare size={30}/>
-            <BsInstagram  size={30}/>
-            <FaTiktok   size={30}/>
+            <a href="#"><FaFacebookSquare size={30}/></a>
+            <a href="#"><BsInstagram  size={30}/></a>
+            <a href="#"><FaTiktok   size={30}/></a>
             
           </div>
 
